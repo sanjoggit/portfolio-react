@@ -1,32 +1,211 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Mali:700');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan:700');
+
+body{
+  background: url(./assets/images/bgi.jpg);
+  background-color: #1b1b1b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  /* height: 100vh; */
+}
+/* body::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(17, 17, 17, 0.5);
+  
+} */
+
+.sidenav {
+  height: 100%;
+  width: 65px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .nav-text{
+  font-size:12px;
+  font-style: normal;
+}
+
+.main {
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.container{
+  margin-left: 65px;
+}
+
+h1, h2, h3, h5{
+  color: white !important;
+  font-family: 'Kodchasan', cursive !important;
+}
+h1{
+  font-size: 2em !important;
+}
+
+.profile-content, .about-me, .contact-content{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.profile-image{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+
+}
+.profile-image img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0px 50px white;
+}
+
+/**************animations starts***************/
+.fadeImage-appear{
+  opacity: 0.01;
+}
+.fadeImage-appear.fadeImage-appear-active{
+  opacity: 1;
+  transition: opacity 4000ms ease-out;
+}
+.slideRight-appear{
+  transform: translate(-100%);
+}
+.slideRight-appear-active{
+  animation: slide-in 500ms ease-out forwards;
+}
+@keyframes slide-in{
+  from{
+    transform: translate(-100%);
+  }
+  to{
+    transform: translate(0%);
+  }
+}
+/**********************animations end**********************/
+
+
+/* ***************css for education start*****************/
+.edu-title, .skill-title{
+  margin-top: 20px;
+}
+hr{
+  background: white;
+}
+.date-right{
+  margin-left: 50px;
+  color: yellow !important;
+}
+.date-left{
+  margin-right: 50px;
+  color: yellow !important;
+}
+.vertical-timeline-element-content{
+  padding: 10px !important;
+}
+.vertical-timeline-element-subtitle{
+  color: black !important;
+}
+
+/* ***************css for education end*****************/
+
+/* ***************css for skills start*****************/
+.card{
+  opacity: .7;
+  background-color: lightyellow;
+  margin-bottom: 10px;;
+}
+.card-body{
+  display: flex;
+  padding: 15px;
+}
+.card-header{
+  font-size: 20px;
+  padding: 7px;
+}
+figure{
+  padding-right: 20px;
+}
+figure img{
+  height: 50px;
+  width: 50px;
+}
+figcaption{
+  font-size: 15px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.slideRight1-appear{
+  transform: translate(-100%);
+}
+.slideRight1-appear-active{
+  animation: slide-in 500ms ease-out forwards;
+}
+.slideRight2-appear{
+  transform: translate(-100%);
+}
+.slideRight2-appear-active{
+  animation: slide-in 600ms ease-out forwards;
+}
+.slideRight3-appear{
+  transform: translate(-100%);
+}
+.slideRight3-appear-active{
+  animation: slide-in 700ms ease-out forwards;
+}
+.slideRight4-appear{
+  transform: translate(-100%);
+}
+.slideRight4-appear-active{
+  animation: slide-in 800ms ease-out forwards;
+}
+@keyframes slide-in{
+  from{
+    transform: translate(-100%);
+  }
+  to{
+    transform: translate(0%);
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+/* ***************css for skills end*****************/
+
+/* ***************css for contact start*****************/
+.fa-envelope-square, .fa-phone{
+  color: white;
+  padding-right: 10px;
+}
+.contact-content span{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.contact{
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* ***************css for contact end*****************/
