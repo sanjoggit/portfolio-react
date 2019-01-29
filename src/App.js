@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { Container } from 'reactstrap'
 import { SideNav } from './components/SideNav';
 import Home from './components/Home';
@@ -12,7 +12,7 @@ class App extends Component {
   
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container>
           <SideNav />
           <div className="main">
