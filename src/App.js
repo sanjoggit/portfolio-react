@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import { Container } from 'reactstrap'
 import { SideNav } from './components/SideNav';
 import Home from './components/Home';
@@ -17,7 +17,7 @@ class App extends Component {
           <SideNav />
           <div className="main">
             <Switch>
-              <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/education" component={Education} />
               <Route exact path="/skills" component={SkillExperience} />
               <Route exact path="/contact" component={Contact} />
