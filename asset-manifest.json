@@ -1,10 +1,10 @@
 {
   "main.css": "/portfolio-react/static/css/main.d158c8f6.chunk.css",
-  "main.js": "/portfolio-react/static/js/main.b960d2d6.chunk.js",
-  "main.js.map": "/portfolio-react/static/js/main.b960d2d6.chunk.js.map",
+  "main.js": "/portfolio-react/static/js/main.14e93703.chunk.js",
+  "main.js.map": "/portfolio-react/static/js/main.14e93703.chunk.js.map",
   "static/css/1.6e588d12.chunk.css": "/portfolio-react/static/css/1.6e588d12.chunk.css",
-  "static/js/1.df7f5098.chunk.js": "/portfolio-react/static/js/1.df7f5098.chunk.js",
-  "static/js/1.df7f5098.chunk.js.map": "/portfolio-react/static/js/1.df7f5098.chunk.js.map",
+  "static/js/1.8314030c.chunk.js": "/portfolio-react/static/js/1.8314030c.chunk.js",
+  "static/js/1.8314030c.chunk.js.map": "/portfolio-react/static/js/1.8314030c.chunk.js.map",
   "runtime~main.js": "/portfolio-react/static/js/runtime~main.9338e8a0.js",
   "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.9338e8a0.js.map",
   "static/media/App.css": "/portfolio-react/static/media/bgi.a21567f5.jpg",
@@ -23,6 +23,6 @@
   "static/css/main.d158c8f6.chunk.css.map": "/portfolio-react/static/css/main.d158c8f6.chunk.css.map",
   "static/css/1.6e588d12.chunk.css.map": "/portfolio-react/static/css/1.6e588d12.chunk.css.map",
   "index.html": "/portfolio-react/index.html",
-  "precache-manifest.076d4b19355abc4382187b7a817470ec.js": "/portfolio-react/precache-manifest.076d4b19355abc4382187b7a817470ec.js",
+  "precache-manifest.a1a8390da1bc8226c0659706af076f7a.js": "/portfolio-react/precache-manifest.a1a8390da1bc8226c0659706af076f7a.js",
   "service-worker.js": "/portfolio-react/service-worker.js"
 }
